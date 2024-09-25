@@ -9,6 +9,7 @@ jobs:
             - name: Print Good
               run: echo "Good Bye"
             - name: Multiple lines
-              run:  
-               echo "First line" 
+              run: | 
+                  echo "First line" 
+                  echo "Second line" 
             
