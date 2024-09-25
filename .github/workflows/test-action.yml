@@ -7,4 +7,8 @@ jobs:
             - name: Print Greeting
               run: echo "Hello World"
             - name: Print Good
-              run: echo "Good Bye"    
+              run: echo "Good Bye"
+            - name: Multiple lines
+               run:|  
+               echo "First line" 
+               echo "Second line"
